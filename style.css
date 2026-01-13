@@ -1,0 +1,21 @@
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+body {
+  background-color: #323432;
+  border: 10px solid #4d894e;
+  color: #8cf2a6;
+}
+
+.animated {
+  animation: myAnim 300ms ease-out forwards;
+}
