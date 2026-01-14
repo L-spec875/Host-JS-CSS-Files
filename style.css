@@ -11,6 +11,7 @@
 }
 
 body {
+  font-family: "Lucida Console", "Courier New", monospace;
   background-color: #323432;
   border: 10px solid #4d894e;
   color: #8cf2a6;
